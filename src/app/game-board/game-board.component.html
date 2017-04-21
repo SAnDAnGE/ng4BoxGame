@@ -1,0 +1,3 @@
+<div class="container">
+  <app-box *ngFor="let box of boxes" [box]="box" (click)="box.selected && onClick(box)"></app-box>
+</div>

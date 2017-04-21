@@ -1,0 +1,5 @@
+<div class="box" [style.background-color]="box.color" [style.cursor]="box.letter ? 'pointer':'default'">
+  <span class="letter" *ngIf="box.letter">
+    {{box.letter}}
+  </span>
+</div>

@@ -1,0 +1,12 @@
+<div class="game">
+  <div class="game-header">
+    <button class="start-stop" (click)="toggleGame()">START/STOP</button>
+  </div>
+  <div class="game-info">
+    <span class="left-info big-text" [style.visibility]="!selectedBox ? 'hidden' : 'visible'">Click the {{selectedBoxIdentifier}}</span>
+    <span class="right-info big-text">Lives: {{lives}}</span>
+    <span class="left-info medium-text">Time left: {{duration / 1000 | number:'1.0-2'}}s</span>
+    <span class="right-info big-text">Score: {{score}}</span>
+  </div>
+  <app-game-board (boxClick)="onBoxClick($event)"></app-game-board>
+</div>

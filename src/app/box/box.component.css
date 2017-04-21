@@ -1,0 +1,13 @@
+.box {
+  width: 98px;
+  height: 98px;
+  border: solid darkgray thin;
+  text-align: center;
+  line-height: 6.25em;
+}
+.letter {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "Lucida Console", monospace;
+  user-select: none;
+}

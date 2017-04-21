@@ -1,0 +1,39 @@
+.game {
+  border: double;
+  width: 600px;
+  margin: 0 auto;
+}
+.game-header {
+  text-align: center;
+  border-bottom: double;
+}
+.game-info {
+  display: grid;
+  grid-template-columns: 67% 33%;
+  border-bottom: double;
+  /*width: 600px;*/
+}
+.left-info {
+  justify-self: start;
+  margin-left: 20px;
+}
+.big-text {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.medium-text {
+  font-size: 24px;
+}
+.right-info {
+  justify-self: end;
+  margin-right: 20px;
+}
+.start-stop {
+  font-size: large;
+  margin: 20px 20px;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
